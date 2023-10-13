@@ -284,7 +284,7 @@ export default function Navigation({ navOpen, setNavOpen }: NavigationProps) {
                             dispatch(setSelectedDocs(doc));
                             setIsDocsListOpen(false);
                           }}
-                          className="flex h-10 w-full cursor-pointer items-center justify-between border-x-2 border-b-2 hover:bg-gray-100"
+                          className="flex w-full cursor-pointer justify-between rounded-3xl border-x-2 bg-whiteh-10 border-b-2 hover:bg-gray-100"
                         >
                           <p className="ml-5 flex-1 overflow-hidden overflow-ellipsis whitespace-nowrap py-3">
                             {doc.name} {doc.version}
